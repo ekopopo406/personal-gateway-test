@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+    discovery:
+        enabled: true
+        service-id: config-example
+      name: gateway-example
+      profile: dev #配置环境，对应config server Url中的{profile}
+      label:  #配置分支(不配置则默认：git则是master,svn则是trunk)

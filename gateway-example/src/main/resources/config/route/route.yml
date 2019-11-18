@@ -1,0 +1,4 @@
+zuul: 
+  sensitive-headers: 
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+  routes: 
